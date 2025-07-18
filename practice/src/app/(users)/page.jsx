@@ -19,7 +19,6 @@ export default function Home() {
   
   return (
    <div>
-    <p>HELLO</p>
     <ul className="grid grid-cols-3 gap-5">
       {item.map((data,index)=>(
         <li key={index}>
